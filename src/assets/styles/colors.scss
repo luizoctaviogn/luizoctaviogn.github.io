@@ -1,0 +1,20 @@
+$colors: (
+  primary:   #D19971,
+  secondary:  #FFE7D6,
+  white: #fff,
+  grey: #bdbdbd,
+  greyLight: #eee,
+  greyDark: #616161,
+  cta: #8FD98B,
+  ctaHover: #469E74,
+  text: #212121,
+);
+
+@each $value in $colors {
+  .text-#{nth($value, 1)} {
+    color: nth($value, 2) !important;
+  }
+  .bg-#{nth($value, 1)} {
+    background-color: nth($value, 2) !important;
+  }
+}
