@@ -18,26 +18,35 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     <div style={{flex: 1}}>
-      <Header />
       <div>
         {children()}
       </div>
     </div>
     <Footer
-      phone="(47) 99718-2093"
-      mail="mateus@dalbinaco.com"
+      phone="(32) 99149-8161"
+      mail="luizoctaviogn@gmail.com"
       socialPages={
-        [{
-        icon: 'twitter',
-        url: 'https://twitter.com/dlbnco'
-      }, {
-        icon: 'github',
-        url: 'https://github.com/dalbinaco'
-      }, {
-        icon: 'instagram',
-        url: 'https://instagram.com/dlbnco'
-      }]
-    }
+       [ {
+         icon: 'facebook',
+         url: 'https://www.facebook.com/luizoctavio.goncalvesneto',
+         color: '#212121'
+       },
+       {
+         icon: 'linkedin',
+         url: 'https://www.linkedin.com/in/luiz-octavio-goncalves-neto-0b920462/',
+         color: '#212121'
+       },
+       {
+         icon: 'instagram',
+         url: 'https://instagram.com/luizoc',
+         color: '#212121'
+       },
+       {
+       icon: 'medium',
+       url: 'https://medium.com/@luizoctviogonalvesneto',
+       color: '#212121'
+     }]
+     }
     />
   </div>
 )

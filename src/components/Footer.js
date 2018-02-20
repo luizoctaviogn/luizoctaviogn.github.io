@@ -14,8 +14,7 @@ const Footer = (props) => (
           />
         </div>
         <div className="col-6">
-          <Logo name="Panthera" />
-          <small className="text-muted">by <a href="http://dlbn.co">dlbn.co</a></small>
+          <Logo name="luizoctavio.com" />
           {props.socialPages ? <div className="mt-2"><SocialMedia pages={props.socialPages} size={16} /></div>
            : null}
         </div>

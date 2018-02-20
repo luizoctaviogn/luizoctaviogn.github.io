@@ -4,7 +4,7 @@ import SimpleIcon from './SimpleIcon'
 
 const Contact = (props) => (
     <div>
-      <h3><strong>{props.title || 'Contato' }</strong></h3>
+      <h3>{props.title || 'Contato' }</h3>
       {props.mail ? (
         <div className="d-flex align-items-center">
           <FeatherIcon icon="mail" size={16} /> <span className="ml-2">{props.mail}</span>

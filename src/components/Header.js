@@ -8,7 +8,7 @@ const Header = (props) => (
   <div className="my-3 bg-black">
     <div className="container">
       <div className="d-flex align-items-center">
-        <div style={{flex: 1}}>
+        <div style={{flex: 1}} className="text-white">
           <Logo name="luizoctavio" />
         </div>
         <div>
@@ -21,22 +21,26 @@ const Header = (props) => (
         <div className="ml-3 d-flex align-items-center">
           <SocialMedia
             size={18}
-           pages={
+            pages={
              [ {
                icon: 'facebook',
-               url: 'https://www.facebook.com/luizoctavio.goncalvesneto'
+               url: 'https://www.facebook.com/luizoctavio.goncalvesneto',
+               color: '#ffffff'
              },
              {
                icon: 'linkedin',
-               url: 'https://www.linkedin.com/in/luiz-octavio-goncalves-neto-0b920462/'
+               url: 'https://www.linkedin.com/in/luiz-octavio-goncalves-neto-0b920462/',
+               color: '#ffffff'
              },
              {
                icon: 'instagram',
-               url: 'https://instagram.com/luizoc'
+               url: 'https://instagram.com/luizoc',
+               color: '#ffffff'
              },
              {
              icon: 'medium',
-             url: 'https://medium.com/@luizoctviogonalvesneto'
+             url: 'https://medium.com/@luizoctviogonalvesneto',
+             color: '#ffffff'
            }]
            }/>
         </div>

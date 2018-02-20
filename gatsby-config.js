@@ -20,8 +20,8 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `fira sans\:300,300i,400,400i,700,700i`,
-          `nunito\:300,300i,400,400i,700,700i`,
+          `patua one\:400`,
+          `raleway\:300,400,600`,
         ]
       }
     }

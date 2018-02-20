@@ -5,65 +5,75 @@ import Features from '../components/Features'
 import About from '../components/About'
 import Logos from '../components/Logos'
 
-const logo = require('../assets/img/logos/1.svg')
+const logoRedBull = require('../assets/img/logos/red-bull.png')
+const logoNlp = require('../assets/img/logos/nlp.png')
+const logoSebrae = require('../assets/img/logos/sebrae.png')
+const logoCorinthians = require('../assets/img/logos/corinthians.png')
 
 const IndexPage = () => (
   <div>
     <Main
-      tagline="Seu site personalizado em até 3 dias"
-      subtagline="Ganhe presença na web com baixo custo e agilidade"
-      cta="Adquira o seu"
+      tagline="Impactar e causar transformação em pessoas, projetos e empresas através do desenvolvimento e inovação"
+      cta="Vamos conversar!"
       action={{
-        href: '/request'
+        href: 'mailto:luizoctaviogn@gmail.com'
       }}
     />
     <Features
       features={[
         {
-          icon: 'smartphone',
-          title: 'Conquiste seus usuários com um site veloz',
-          description: '79% dos usuários de smartphones esperam obter informação imediata quando usam a internet'
+          icon: 'navigation',
+          title: 'Liderança',
         },
         {
-          icon: 'search',
-          title: 'Seja encontrado no Google',
-          description: 'Páginas otimizadas para obter melhor posicionamento nos resultados de busca'
+          icon: 'target',
+          title: 'Marketing',
         },
         {
-          icon: 'activity',
-          title: 'Acompanhe seus resultados',
-          description: 'Saiba a quantidade, perfil e comportamento de seus visitantes'
+          icon: 'maximize',
+          title: 'Desenvolvimento humano e empresarial',
         },
         {
-          icon: 'wind',
-          title: 'Sem complicações e esforço mínimo',
-          description: 'Foque no seu negócio enquanto desenvolvemos a experiência do seu usuário'
+          title: 'Planejamento comercial',
+          icon: 'file-text'
         },
+        {
+          title: 'Economia comportamental',
+          icon: 'users'
+        },
+        {
+          title: 'Inovação e novas tecnologias',
+          icon: 'zap'
+        }
       ]}
     />
     <About content={{
-      title: 'Sobre o Panthera',
-      about: "Uma solução para o **microempreendedor e o profissional liberal obterem presença na web**.\n\nO Panthera possibilita a **inserção e expansão** daqueles que tem visão de crescimento empresarial num **mercado repleto de oportunidades** de negócios como o digital por um **preço muito acessível e de forma prática e rápida**.\n\nConsiste em um **site padrão com itens personalizáveis** que será **entregue em até três dias**. Sua única tarefa será **bater um papo com a gente** e nos contar o que deseja ter em seu site ;)"
+      title: 'Quem sou eu',
+      about: "Inconformado, agitado e completamente apaixonado pelo ser humano e suas criações, tem como principal objetivo o desenvolvimento de conexões internas e externas, que possibilitem saltos na capacidade de realização e no consciente coletivo da sociedade. \n\n Acredito que melhor forma de solucionar todos os problemas sociais e criar futuros desejáveis é agregando conhecimento, capacidade de colaboração, empatia e amor á vida e aos negócios das pessoas.\n\nBusco criar e auxiliar em projetos e empresas que geram impacto real na qualidade de vida e elevam o nível de expectativa das pessoas em relação ao negócios."
     }} />
-    <Logos title="Usado por" logos={[{
-      src: logo,
-      alt: 'adobe after effects',
-      href: 'http://adobe.com'
-    },{
-      src: logo
-    },{
-      src: logo
-    },{
-      src: logo
-    },{
-      src: logo
-    },{
-      src: logo
-    },{
-      src: logo
-    },{
-      src: logo
-    },]}/>
+    <Logos
+      title="Quem confia em mim"
+      logos={[{
+      src: logoRedBull,
+      alt: 'Red Bull',
+      href: 'https://www.redbull.com/br-pt/'
+    },
+    {
+      src: logoNlp,
+      alt: 'Society of Neuro-Linguistic Programming',
+      href: 'https://www.purenlp.com/'
+    },
+    {
+      src: logoSebrae,
+      alt: 'Sebrae',
+      href: 'http://www.sebrae.com.br/sites/PortalSebrae'
+    },
+    {
+      src: logoCorinthians,
+      alt: 'Corinthians-Guarulhos',
+      href: 'http://www.corinthiansguarulhos.com'
+    }
+  ]}/>
   </div>
 )
 
