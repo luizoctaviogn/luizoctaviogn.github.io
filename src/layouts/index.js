@@ -11,10 +11,9 @@ import '../assets/styles/main.scss'
 const TemplateWrapper = ({ children }) => (
   <div style={{minHeight: '100vh'}} className="d-flex flex-column">
     <Helmet
-      title="Gatsby Panthera"
+      title="Luiz Octavio – Desenvolvendo pessoas e negócios"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Psicologia humana,  consultoria comercial,  direcionamento com base em novas tecnologias, técnicas de marketing e liderança são ferramentas que utilizo para que empresas e pessoas elevem seus negócios e qualidade de vida' },
       ]}
     />
     <div style={{flex: 1}}>
