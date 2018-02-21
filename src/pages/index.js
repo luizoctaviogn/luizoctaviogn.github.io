@@ -49,7 +49,7 @@ const IndexPage = () => (
     />
     <About content={{
       title: 'Quem sou eu',
-      about: "Inconformado, agitado e completamente apaixonado pelo ser humano e suas criações, tem como principal objetivo o desenvolvimento de conexões internas e externas, que possibilitem saltos na capacidade de realização e no consciente coletivo da sociedade. \n\n Acredito que melhor forma de solucionar todos os problemas sociais e criar futuros desejáveis é agregando conhecimento, capacidade de colaboração, empatia e amor á vida e aos negócios das pessoas.\n\nBusco criar e auxiliar em projetos e empresas que geram impacto real na qualidade de vida e elevam o nível de expectativa das pessoas em relação ao negócios."
+      about: "Inconformado, frenético e completamente **apaixonado** pelo **ser humano** e suas criações.\n\n**Meu objetivo principal** é auxiliar pessoas e **desenvolver conexões internas e externas**, que possibilitem **saltos** na capacidade de **realização** e no **consciente coletivo**.\n\nAcredito que melhor forma de **solucionar os problemas sociais** e criar um futuro desejável é agregando **conhecimento**, colaboração, **empatia** e amor **à vida** e aos **negócios das pessoas**.\n\nEmpenho-me em **criar e auxiliar** projetos e empresas que geram **real impacto** na qualidade de vida e elevam o nível de expectativa das **pessoas** em relação aos **negócios**."
     }} />
     <Logos
       title="Quem confia em mim"
