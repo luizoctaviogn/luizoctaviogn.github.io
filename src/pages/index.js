@@ -13,7 +13,7 @@ const logoCorinthians = require('../assets/img/logos/corinthians.png')
 const IndexPage = () => (
   <div>
     <Main
-      tagline="Impactar e causar transformação em pessoas, projetos e empresas através do desenvolvimento e inovação"
+      tagline="Impactar e causar transformação em pessoas, projetos e empresas através de desenvolvimento e inovação é meu foco"
       cta="Vamos conversar!"
       action={{
         href: 'mailto:luizoctaviogn@gmail.com'
