@@ -9,7 +9,7 @@
     "classnames": "^2.2.5",
     "express": "^4.16.2",
     "feather-icons": "^4.5.0",
-    "gatsby": "^1.9.202",
+    "gatsby": "^5.3.3",
     "gatsby-image": "^1.0.37",
     "gatsby-link": "^1.6.37",
     "gatsby-plugin-google-analytics": "^1.0.19",
